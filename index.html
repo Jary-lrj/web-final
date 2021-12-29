@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>基于jQuery和javascript的游戏网站</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+</head>
+<!-- NAVBAR
+================================================== -->
+<body>
+<div class="navbar-wrapper">
+    <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                            aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">基于jQuery和JavaScript的游戏网站</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">主页</a>
+                        <li><a href="./2048/index.html">2048</a></li>
+                        <li><a href="./saolei/index.html">扫雷</a></li>
+                        <li><a href="./1/index.html">Flappy Bird</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+</div>
+
+
+<!-- Carousel
+================================================== -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img class="first-slide"
+                 src="./img/2048-overview.jpg"
+                 alt="First slide">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>2048</h1>
+                    <p>动用你的聪明智慧，从最开始的两个小小数字，最终合成伟大的2的11次方-2048！相信你一定能做到！</p>
+                    <p><a class="btn btn-lg btn-primary" href="./2048/index.html" role="button">现在开始！</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img class="second-slide"
+                 src="./img/saolei-overview.png"
+                 alt="Second slide">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>扫雷</h1>
+                    <p>10x10的方格里只有10个雷，意识与操作的考验！</p>
+                    <p><a class="btn btn-lg btn-primary" href="./saolei/index.html" role="button">现在开始！</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img class="third-slide"
+                 src="./img/flappybird-overview.jpg"
+                 alt="Third slide">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Flappy Bird</h1>
+                    <p>让小鸟飞一会儿！</p>
+                    <p><a class="btn btn-lg btn-primary" href="./1/index.html" role="button">现在开始！</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div><!-- /.carousel -->
+
+
+<!-- Marketing messaging and featurettes
+================================================== -->
+<!-- Wrap the rest of the page in another container to center all the content. -->
+
+<div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+        <div class="col-lg-4">
+            <img class="img-circle"
+                 src="./img/2048logo.png"
+                 alt="Generic placeholder image" width="140" height="140">
+            <h2>2048</h2>
+            <p>2048》是一款单人在线和移动端游戏，由19岁的意大利人于2014年3月开发。游戏任务是在一个网格上滑动小方块来进行组合，直到形成一个带有有数字2048的方块。</p>
+            <a class="btn btn-primary" href="./2048/index.html">现在开始！</a>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+            <img class="img-circle"
+                 src="./img/saoleilogo.jpg"
+                 alt="Generic placeholder image" width="140" height="140">
+            <h2>扫雷</h2>
+            <p>扫雷，是一款单人或者多人的电脑游戏。游戏目标是找出所有没有地雷的方格，完成游戏；要是按了有地雷的方格，游戏失败。游戏以完成时间来评高低。</p>
+            <a class="btn btn-primary" href="./saolei/index.html">现在开始！</a>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+            <img class="img-circle"
+                 src="./img/flappybirdlogo.jpg"
+                 alt="Generic placeholder image" width="140" height="140">
+            <h2>Flappy Bird</h2>
+            <p>《Flappy Bird》（飞扬的小鸟）是一款2013年鸟飞类游戏，由越南河内独立游戏开发者阮河东（Dong Nguyen）开发，另一个独立游戏开发商.GEARS Studios发布。</p>
+            <a class="btn btn-primary" href="./1/index.html">现在开始！</a>
+        </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">2048<span
+                    class="text-muted"> 数字华容道？</span></h2>
+            <p class="lead">《2048》是一款单人在线和移动端游戏，由19岁的意大利人Gabriele
+                Cirulli于2014年3月开发。游戏任务是在一个网格上滑动小方块来进行组合，直到形成一个带有有数字2048的方块。
+                它是滑块类游戏的一种电脑变体，非常类似于在2014年2月发布的Threes!应用。作者开发这个游戏是为了测试自己是否有能力从零开始创造一款游戏，但游戏飙升的人气（不到1周内有400万访客）完全出乎他的预料。事实上，它已被称为网络上“最上瘾的东西”。
+                华尔街日报将其评价为“属于数学极客的Candy Crush”。<br/>
+                该游戏为开源软件，这导致它衍生出许多改进版和变种，包括积分排行榜、提升触屏的可玩性、或者使用其他的换算规则和素材等。
+                2048游戏设计源自一个类似的游戏《1024》和Saming开发的《2048》（Saming的2048同样改编自1024），而1024的灵感来自于移动端游戏Threes!（但Threes!作者对此感到不满，Threes!的玩家认为1024与2048是抄袭作品）。
+            </p>
+        </div>
+        <div class="col-md-5">
+            <img class="featurette-image img-responsive center-block" src="./img/2048logo.png"
+                 alt="Generic placeholder image">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+            <h2 class="featurette-heading">扫雷<span class="text-muted"> 到底是算的还是猜的？</span>
+            </h2>
+            <p class="lead">扫雷，是一款单人或者多人的电脑游戏。游戏目标是找出所有没有地雷的方格，完成游戏；要是按了有地雷的方格，游戏失败。游戏以完成时间来评高低。
+                在数学上，扫雷的复杂度为NP完全。 微软开发这款游戏的最初目的是为了教育用户用鼠标快速精确的点击。实际上扫雷是根据中心方格的数字进行推算，然后最终完成所有内容的。</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+            <img class="featurette-image img-responsive center-block" src="./img/saolei.png"
+                 alt="Generic placeholder image">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">Flappy Bird <span class="text-muted">让人中毒？</span></h2>
+            <p class="lead">《Flappy
+                Bird》获《赫芬顿邮报》批评，指出此游戏是一个“疯狂地恼人、困难和令人沮丧的游戏”，且“结合了超陡峭的难度曲线、差劣无聊的画质和生硬的动作”。但是，Amongtech.com的珍妮弗·怀特塞德却给予一个更正面的评价。她指出此游戏可能因其令人上瘾的游戏模式、Candy
+                Crush的受欢迎程度下降和炒作而超越《Candy Crush Saga》成为2014年最受欢迎游戏。
+                此游戏的难度亦导致不少玩家感到愤怒，其中一位玩家更指出他自己用了半小时才能获得5分。根据作者本人指出，此游戏的Android版本要比iOS版本容易。另外，此游戏亦被称为“App Store的毒品”（Drug
+                of the App Store）。 <br/>
+                于2014年2月8日，阮河东在twitter上发言，指出他计划将游戏下架。他说：“《Flappy Bird》用户们，我很抱歉，在22小时后，我会将《Flappy
+                Bird》下架。我再也无法忍受了。”他亦指出下架决定“与法律问题无关”。他开发此游戏时并没有为难玩家的意图。</p>
+        </div>
+        <div class="col-md-5">
+            <img class="featurette-image img-responsive center-block" src="./img/FlappyBirdScreenshot.png"
+                 alt="Generic placeholder image">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+
+    <!-- FOOTER -->
+    <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>2021 Web系统与技术课程答辩项目 <a href="#">1953617 李睿捷</a></p>
+    </footer>
+
+</div><!-- /.container -->
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+        crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="./jquery.min.js"><\/script>')</script>
+<script src="./bootstrap.min.js"></script>
+<!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+<script src="./holder.min.js"></script>
+</body>
+</html>
